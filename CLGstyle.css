@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image:  url(https://source.unsplash.com/1600x900/?college,student,lab);
+    background-repeat: no-repeat;
+    /* position: absolute; */
+    background-size: cover;
+    
+}
+.content-area{
+    display: flex;
+    height: 90vh;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana;
+
+}
+.content{
+       text-align: center;  
+}
+.content h1{
+    font-size: 40px;
+    color: #10b2b1;
+}
+.content h2{
+    font-size: 30px;
+	margin-top: 20px;
+    color: black;
+	
+	
+}
+.content p{
+	font-family: "Poppins",sans-serif;
+	font-size: 30px;
+	margin-top: 10px;
+    color: yellow;
+}
+
+.content li{
+	ont-size: 30px;
+	margin-top: 10px;
+    color: black;
+}
+
+ .btn{
+     border: none;
+     outline: none;
+     padding: 15px;
+     margin-top: 100px;
+     border-radius: 40px;
+     color: #eee;
+     font-size: 18px;
+     cursor: pointer;
+     background: #222;
+ }
